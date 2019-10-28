@@ -10,7 +10,7 @@ from botocore.client import Config
 import numpy as np
 from scipy.sparse import lil_matrix
 
-# sagemaker containers for factorization machines
+#   sagemaker containers for factorization machines
 containers = {'us-west-2': '174872318107.dkr.ecr.us-west-2.amazonaws.com/factorization-machines:latest',
              'us-east-1': '382416733822.dkr.ecr.us-east-1.amazonaws.com/factorization-machines:latest',
              'us-east-2': '404615174143.dkr.ecr.us-east-2.amazonaws.com/factorization-machines:latest',
